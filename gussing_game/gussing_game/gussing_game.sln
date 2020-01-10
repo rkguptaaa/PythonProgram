@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2041
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "gussing_game", "gussing_game\gussing_game.pyproj", "{AD2E8637-72FD-4671-A673-1ED7B8548AAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD2E8637-72FD-4671-A673-1ED7B8548AAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD2E8637-72FD-4671-A673-1ED7B8548AAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6ACDA6AF-4A5A-4EA7-A8F5-7BCC73E180E0}
+	EndGlobalSection
+EndGlobal

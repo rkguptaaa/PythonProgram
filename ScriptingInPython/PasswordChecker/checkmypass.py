@@ -26,15 +26,14 @@ class CheckPassword:
     def is_password_pwned(self):
         for password in self.passwords:
             hash_password = hashlib.sha1(password.encode(encoding='UTF-8')).hexdigest()
-            print(hash_password)
             first5_char, restHash = hash_password[:5], hash_password[5:]
             print(first5_char, restHash)
             return self.hit_api(first5_char, restHash)
 
 
-chkPwd = CheckPassword('bye')
-result = chkPwd.is_password_pwned()
-if result > 0:
-    print(f'Password is pawned for {result} times')
+chkPwd = CheckPassword('password@123', 'bye', 'hello')
+count = chkPwd.is_password_pwned()
+if count:
+    print(f'Password is pawned for {count} times')
 else:
     print('Password is not pawned')

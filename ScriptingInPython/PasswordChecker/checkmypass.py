@@ -33,7 +33,4 @@ class CheckPassword:
 
 chkPwd = CheckPassword('password@123', 'bye', 'hello')
 count = chkPwd.is_password_pwned()
-if count:
-    print(f'Password is pawned for {count} times')
-else:
-    print('Password is not pawned')
+

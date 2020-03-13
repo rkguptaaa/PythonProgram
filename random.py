@@ -1,2 +1,2 @@
-name = 'ravvi kumar gupta'
-print(name.len())
+a = "Hello, World!"
+print(a.replace("l", "J"))
